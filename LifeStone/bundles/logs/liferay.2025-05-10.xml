@@ -1,0 +1,5 @@
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1746835462889" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m12s50ms539µs271ns).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+

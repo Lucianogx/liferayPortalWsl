@@ -1,0 +1,119 @@
+2025-05-09 22:35:03.425 INFO  [main][PortalContextLoaderListener:114] JVM arguments: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=jdk.zipfs/jdk.nio.zipfs=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Dcatalina.home=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Djava.io.tmpdir=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp
+2025-05-09 22:35:05.418 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2025-05-09 22:35:05.419 INFO  [SystemExecutorServiceUtil-1][DialectDetector:134] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2025-05-09 22:35:06.482 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2025-05-09 22:35:06.635 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /home/luolgx/liferay/liferay-portal/LifeStone/bundles/osgi/configs
+2025-05-09 22:35:06.926 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2025-05-09 22:35:06.926 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2025-05-09 22:35:07.990 WARN  [Start Level: Equinox Container: afeb3479-b937-481e-b60c-2cb8e86ccc8f][SidecarManager:70] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2025-05-09 22:35:13.505 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2025-05-09 22:35:13.506 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2025-05-09 22:35:14.794 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2025-05-09 22:35:14.795 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2025-05-09 22:35:15.829 INFO  [main][StartupHelperUtil:100] There are no patches installed
+2025-05-09 22:35:16.926 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/deploy
+2025-05-09 22:35:20.711 INFO  [SystemExecutorServiceUtil-4][Sidecar:100] Sidecar Elasticsearch 7.17.26 liferay_sidecar started at 127.0.0.1:9201
+2025-05-09 22:35:23.988 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223523880DDACZNBG/admin-theme.war
+2025-05-09 22:35:25.115 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223523880DDACZNBG/admin-theme.war copied successfully
+2025-05-09 22:35:26.620 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223526598QXLQIAKO/classic-theme.war
+2025-05-09 22:35:27.297 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223526598QXLQIAKO/classic-theme.war copied successfully
+2025-05-09 22:35:27.783 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223527772YHAPZNGP/dialect-theme.war
+2025-05-09 22:35:28.146 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223527772YHAPZNGP/dialect-theme.war copied successfully
+2025-05-09 22:35:29.101 ERROR [Framework Event Dispatcher: Equinox Container: afeb3479-b937-481e-b60c-2cb8e86ccc8f][Framework:47] FrameworkEvent ERROR
+java.lang.NullPointerException: Cannot invoke "com.liferay.portal.kernel.model.Portlet.getCompanyId()" because "portlet" is null
+	at com.liferay.object.web.internal.object.entries.application.list.ObjectEntriesPanelApp.getPortlet(ObjectEntriesPanelApp.java:59) ~[?:?]
+	at com.liferay.application.list.user.personal.site.permissions.internal.model.listener.CompanyModelListener$PanelAppServiceTrackerCustomizer.addingService(CompanyModelListener.java:272) ~[?:?]
+	at com.liferay.application.list.user.personal.site.permissions.internal.model.listener.CompanyModelListener$PanelAppServiceTrackerCustomizer.addingService(CompanyModelListener.java:258) ~[?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:903) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.doServiceChanged(FilteredServiceListener.java:114) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry._serviceChanged(ServiceRegistry.java:987) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:969) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:853) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:126) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:227) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:461) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:479) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:986) ~[org.eclipse.osgi.jar:?]
+	at com.liferay.object.web.internal.deployer.ObjectDefinitionDeployerImpl.deploy(ObjectDefinitionDeployerImpl.java:584) ~[?:?]
+	at com.liferay.object.deployer.ObjectDefinitionDeployer.deploy(ObjectDefinitionDeployer.java:33) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl.lambda$_addingObjectDefinitionDeployer$9(ObjectDefinitionLocalServiceImpl.java:1354) ~[?:?]
+	at com.liferay.portal.service.impl.CompanyLocalServiceImpl.forEachCompanyId(CompanyLocalServiceImpl.java:847) ~[portal-impl.jar:?]
+	at com.liferay.portal.service.impl.CompanyLocalServiceImpl.forEachCompanyId(CompanyLocalServiceImpl.java:827) ~[portal-impl.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at jdk.proxy3.$Proxy68.forEachCompanyId(Unknown Source) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl._addingObjectDefinitionDeployer(ObjectDefinitionLocalServiceImpl.java:1347) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl$2.addingService(ObjectDefinitionLocalServiceImpl.java:977) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl$2.addingService(ObjectDefinitionLocalServiceImpl.java:970) ~[?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:903) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.doServiceChanged(FilteredServiceListener.java:114) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry._serviceChanged(ServiceRegistry.java:987) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:969) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:853) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:126) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:227) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:461) ~[org.eclipse.osgi.jar:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:906) ~[?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:892) ~[?:?]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:128) ~[?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:962) ~[?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:732) ~[?:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1053) ~[?:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1007) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) ~[?:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:124) ~[?:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.doServiceChanged(FilteredServiceListener.java:114) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry._serviceChanged(ServiceRegistry.java:987) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:969) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:853) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:126) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:227) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:461) ~[org.eclipse.osgi.jar:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:906) ~[?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:892) ~[?:?]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:128) ~[?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:962) ~[?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:732) ~[?:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1053) ~[?:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1007) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) ~[?:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) ~[?:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:124) ~[?:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.doServiceChanged(FilteredServiceListener.java:114) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry._serviceChanged(ServiceRegistry.java:987) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:969) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:853) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:126) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:227) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:461) ~[org.eclipse.osgi.jar:?]
+	at com.liferay.portal.aop.internal.AopServiceRegistrar.register(AopServiceRegistrar.java:78) ~[?:?]
+	at com.liferay.portal.aop.internal.AopServiceManager$AopServiceServiceTrackerCustomizer.lambda$addingService$0(AopServiceManager.java:275) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+2025-05-09 22:35:29.149 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223529131QVRZRCPR/minium-theme.war
+2025-05-09 22:35:29.625 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223529131QVRZRCPR/minium-theme.war copied successfully
+2025-05-09 22:35:30.381 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223530370KJVZDNRC/speedwell-theme.war
+2025-05-09 22:35:30.652 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250509223530370KJVZDNRC/speedwell-theme.war copied successfully

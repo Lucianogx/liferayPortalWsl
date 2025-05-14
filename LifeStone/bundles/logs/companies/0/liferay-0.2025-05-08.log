@@ -1,0 +1,226 @@
+2025-05-08 01:01:43.944 INFO  [main][PortalContextLoaderListener:114] JVM arguments: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=jdk.zipfs/jdk.nio.zipfs=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Dcatalina.home=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Djava.io.tmpdir=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp
+2025-05-08 01:01:46.240 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2025-05-08 01:01:46.241 INFO  [SystemExecutorServiceUtil-1][DialectDetector:134] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2025-05-08 01:01:47.352 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2025-05-08 01:01:47.552 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /home/luolgx/liferay/liferay-portal/LifeStone/bundles/osgi/configs
+2025-05-08 01:01:47.466 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2025-05-08 01:01:47.467 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2025-05-08 01:01:49.266 WARN  [Start Level: Equinox Container: aea45f0e-8bcb-4483-a189-f38a8349ecd4][SidecarManager:70] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2025-05-08 01:01:55.981 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2025-05-08 01:01:55.982 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2025-05-08 01:01:57.548 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2025-05-08 01:01:57.549 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2025-05-08 01:02:00.176 INFO  [main][StartupHelperUtil:100] There are no patches installed
+2025-05-08 01:02:01.769 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/deploy
+2025-05-08 01:02:06.389 INFO  [SystemExecutorServiceUtil-6][Sidecar:100] Sidecar Elasticsearch 7.17.26 liferay_sidecar started at 127.0.0.1:9201
+2025-05-08 01:02:11.769 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010211662WPPZURUO/admin-theme.war
+2025-05-08 01:02:12.340 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010211662WPPZURUO/admin-theme.war copied successfully
+2025-05-08 01:02:15.287 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010215228GDBZMLWI/classic-theme.war
+2025-05-08 01:02:16.264 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010215228GDBZMLWI/classic-theme.war copied successfully
+2025-05-08 01:02:17.388 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010217369ONCEZELN/dialect-theme.war
+2025-05-08 01:02:17.550 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010217369ONCEZELN/dialect-theme.war copied successfully
+2025-05-08 01:02:18.490 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010218475YKYQFFDK/minium-theme.war
+2025-05-08 01:02:19.155 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010218475YKYQFFDK/minium-theme.war copied successfully
+2025-05-08 01:02:19.949 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010219937BAYWCTLC/speedwell-theme.war
+2025-05-08 01:02:20.328 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508010219937BAYWCTLC/speedwell-theme.war copied successfully
+2025-05-08 16:01:25.371 INFO  [main][PortalContextLoaderListener:114] JVM arguments: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=jdk.zipfs/jdk.nio.zipfs=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Dcatalina.home=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Djava.io.tmpdir=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp
+2025-05-08 16:01:27.001 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2025-05-08 16:01:27.002 INFO  [SystemExecutorServiceUtil-1][DialectDetector:134] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2025-05-08 16:01:27.931 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2025-05-08 16:01:33.906 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /home/luolgx/liferay/liferay-portal/LifeStone/bundles/osgi/configs
+2025-05-08 16:01:28.297 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2025-05-08 16:01:28.298 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2025-05-08 16:01:29.525 WARN  [Start Level: Equinox Container: 9e1f74d3-c6b4-4429-a359-402ff2ac066d][SidecarManager:70] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2025-05-08 16:01:33.347 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2025-05-08 16:01:33.348 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2025-05-08 16:01:34.465 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2025-05-08 16:01:34.465 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2025-05-08 16:01:35.461 INFO  [main][StartupHelperUtil:100] There are no patches installed
+2025-05-08 16:01:36.078 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/deploy
+2025-05-08 16:01:39.749 INFO  [SystemExecutorServiceUtil-14][Sidecar:100] Sidecar Elasticsearch 7.17.26 liferay_sidecar started at 127.0.0.1:9201
+2025-05-08 16:01:44.617 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160144512OQXIWOVD/admin-theme.war
+2025-05-08 16:01:45.191 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160144512OQXIWOVD/admin-theme.war copied successfully
+2025-05-08 16:01:46.903 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160146894HGAXMUBJ/classic-theme.war
+2025-05-08 16:01:47.273 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160146894HGAXMUBJ/classic-theme.war copied successfully
+2025-05-08 16:01:47.976 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160147963RGXYPLIX/dialect-theme.war
+2025-05-08 16:01:53.962 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160147963RGXYPLIX/dialect-theme.war copied successfully
+2025-05-08 16:01:48.977 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160148962QFUWNFYI/minium-theme.war
+2025-05-08 16:01:49.372 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160148962QFUWNFYI/minium-theme.war copied successfully
+2025-05-08 16:01:50.079 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160150067MOLOZKYP/speedwell-theme.war
+2025-05-08 16:01:50.366 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508160150067MOLOZKYP/speedwell-theme.war copied successfully
+2025-05-08 18:22:18.160 ERROR [Framework Event Dispatcher: Equinox Container: 9e1f74d3-c6b4-4429-a359-402ff2ac066d][Framework:47] FrameworkEvent ERROR
+java.lang.NullPointerException: Cannot invoke "com.liferay.portal.kernel.model.Portlet.getCompanyId()" because "portlet" is null
+	at com.liferay.object.web.internal.object.entries.application.list.ObjectEntriesPanelApp.getPortlet(ObjectEntriesPanelApp.java:59) ~[?:?]
+	at com.liferay.application.list.user.personal.site.permissions.internal.model.listener.CompanyModelListener$PanelAppServiceTrackerCustomizer.addingService(CompanyModelListener.java:272) ~[?:?]
+	at com.liferay.application.list.user.personal.site.permissions.internal.model.listener.CompanyModelListener$PanelAppServiceTrackerCustomizer.addingService(CompanyModelListener.java:258) ~[?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:903) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.doServiceChanged(FilteredServiceListener.java:114) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry._serviceChanged(ServiceRegistry.java:987) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:969) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:853) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:126) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:227) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:461) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:479) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:986) ~[org.eclipse.osgi.jar:?]
+	at com.liferay.object.web.internal.deployer.ObjectDefinitionDeployerImpl.deploy(ObjectDefinitionDeployerImpl.java:584) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl.lambda$deployObjectDefinition$3(ObjectDefinitionLocalServiceImpl.java:662) ~[?:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl.deployObjectDefinition(ObjectDefinitionLocalServiceImpl.java:659) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl._publishObjectDefinition(ObjectDefinitionLocalServiceImpl.java:1975) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionLocalServiceImpl.publishCustomObjectDefinition(ObjectDefinitionLocalServiceImpl.java:897) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.aop.ChainableMethodAdvice.invoke(ChainableMethodAdvice.java:55) ~[portal-kernel.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at jdk.proxy93.$Proxy1214.publishCustomObjectDefinition(Unknown Source) ~[?:?]
+	at com.liferay.object.service.impl.ObjectDefinitionServiceImpl.publishCustomObjectDefinition(ObjectDefinitionServiceImpl.java:205) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.aop.ChainableMethodAdvice.invoke(ChainableMethodAdvice.java:55) ~[portal-kernel.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at jdk.proxy93.$Proxy1252.publishCustomObjectDefinition(Unknown Source) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.ObjectDefinitionResourceImpl.postObjectDefinitionPublish(ObjectDefinitionResourceImpl.java:444) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179) ~[?:?]
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96) ~[?:?]
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201) ~[?:?]
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104) ~[?:?]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59) ~[?:?]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96) ~[?:?]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307) ~[?:?]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) ~[?:?]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265) ~[?:?]
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234) ~[?:?]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208) ~[?:?]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160) ~[?:?]
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225) ~[?:?]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304) ~[?:?]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217) ~[?:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:50) ~[?:?]
+	at com.liferay.portal.security.auth.verifier.internal.tracker.AuthVerifierFilterTracker$RemoteAccessFilter.doFilter(AuthVerifierFilterTracker.java:213) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.FilterRegistration.doFilter(FilterRegistration.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:45) ~[?:?]
+	at com.liferay.portal.security.auth.verifier.internal.tracker.AuthVerifierFilterTracker$AuditFilter.doFilter(AuthVerifierFilterTracker.java:182) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.FilterRegistration.doFilter(FilterRegistration.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:45) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:152) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.authverifier.AuthVerifierFilter.processFilter(AuthVerifierFilter.java:203) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:42) ~[portal-kernel.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.FilterRegistration.doFilter(FilterRegistration.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:45) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:71) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at com.liferay.portal.osgi.web.http.servlet.internal.servlet.HttpServletEndpointServlet.service(HttpServletEndpointServlet.java:64) ~[?:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.module.framework.ModuleFrameworkServletAdapter.service(ModuleFrameworkServletAdapter.java:45) ~[portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:103) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) ~[catalina.jar:9.0.98]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.98]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) ~[catalina.jar:9.0.98]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:117) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:152) ~[portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:57) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:42) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) ~[portal-kernel.jar:?]
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:159) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:42) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:47) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:42) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:49) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:42) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:152) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:243) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:42) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:114) ~[portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:69) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.98]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[catalina.jar:9.0.98]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396) ~[tomcat-coyote.jar:9.0.98]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.98]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937) ~[tomcat-coyote.jar:9.0.98]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-coyote.jar:9.0.98]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.98]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[org.apache.tomcat-util.jar:9.0.98]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[org.apache.tomcat-util.jar:9.0.98]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[org.apache.tomcat-util.jar:9.0.98]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+2025-05-08 19:00:58.586 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s35ms810µs88ns).
+2025-05-08 20:38:59.838 INFO  [main][PortalContextLoaderListener:114] JVM arguments: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=jdk.zipfs/jdk.nio.zipfs=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Dcatalina.home=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat -Djava.io.tmpdir=/home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp
+2025-05-08 20:39:01.568 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2025-05-08 20:39:01.569 INFO  [SystemExecutorServiceUtil-1][DialectDetector:134] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2025-05-08 20:39:02.587 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2025-05-08 20:39:02.718 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /home/luolgx/liferay/liferay-portal/LifeStone/bundles/osgi/configs
+2025-05-08 20:39:03.076 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2025-05-08 20:39:03.077 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2025-05-08 20:39:04.517 WARN  [Start Level: Equinox Container: 9a8a86c4-2793-48a3-9036-a355b9266e7b][SidecarManager:70] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2025-05-08 20:39:09.798 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2025-05-08 20:39:09.799 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2025-05-08 20:39:11.206 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2025-05-08 20:39:11.207 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2025-05-08 20:39:12.616 INFO  [main][StartupHelperUtil:100] There are no patches installed
+2025-05-08 20:39:13.440 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/deploy
+2025-05-08 20:39:17.576 INFO  [SystemExecutorServiceUtil-7][Sidecar:100] Sidecar Elasticsearch 7.17.26 liferay_sidecar started at 127.0.0.1:9201
+2025-05-08 20:39:21.357 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203921267OOKSEEUK/admin-theme.war
+2025-05-08 20:39:27.924 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203921267OOKSEEUK/admin-theme.war copied successfully
+2025-05-08 20:39:23.665 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203923653CNFFVYXS/classic-theme.war
+2025-05-08 20:39:24.115 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203923653CNFFVYXS/classic-theme.war copied successfully
+2025-05-08 20:39:25.059 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203925017VECJUIWF/dialect-theme.war
+2025-05-08 20:39:25.622 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203925017VECJUIWF/dialect-theme.war copied successfully
+2025-05-08 20:39:26.451 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203926437IWELEQOA/minium-theme.war
+2025-05-08 20:39:26.905 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203926437IWELEQOA/minium-theme.war copied successfully
+2025-05-08 20:39:27.926 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203927916KFWUOGPG/speedwell-theme.war
+2025-05-08 20:39:28.236 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /home/luolgx/liferay/liferay-portal/LifeStone/bundles/tomcat/temp/20250508203927916KFWUOGPG/speedwell-theme.war copied successfully

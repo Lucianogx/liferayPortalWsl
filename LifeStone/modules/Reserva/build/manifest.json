@@ -1,0 +1,40 @@
+{
+  "packages": {
+    "/": {
+      "dest": {
+        "dir": "./build",
+        "id": "/",
+        "name": "Reserva",
+        "version": "1.0.0"
+      },
+      "modules": {
+        "AppComponent.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "app.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "index.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "utils/api.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": ".",
+        "id": "/",
+        "name": "Reserva",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
